@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronograma de Viagem & Aprendizado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <nav class="tabs-nav">
+            <button class="tab-btn active" onclick="openTab(event, 'brasilia')">Brasília</button>
+            <button class="tab-btn" onclick="openTab(event, 'salvador')">Salvador</button>
+            <button class="tab-btn" onclick="openTab(event, 'rio')">Rio de Janeiro</button>
+            <button class="tab-btn" onclick="openTab(event, 'piaui')">Piauí</button>
+        </nav>
+
+        <section id="brasilia" class="tab-content active">
+            <h2>Objetivo: Brasília</h2>
+            <p class="subtitle">Tempo restante para concluir o aprendizado da linguagem:</p>
+            <div class="countdown" id="timer-brasilia">
+                <div><span class="days">00</span>Dias</div>
+                <div><span class="hours">00</span>Horas</div>
+                <div><span class="minutes">00</span>Minutos</div>
+                <div><span class="seconds">00</span>Segundos</div>
+            </div>
+        </section>
+
+        <section id="salvador" class="tab-content">
+            <h2>Objetivo: Salvador</h2>
+            <p class="subtitle">Tempo restante para concluir o aprendizado da linguagem:</p>
+            <div class="countdown" id="timer-salvador">
+                <div><span class="days">00</span>Dias</div>
+                <div><span class="hours">00</span>Horas</div>
+                <div><span class="minutes">00</span>Minutos</div>
+                <div><span class="seconds">00</span>Segundos</div>
+            </div>
+        </section>
+
+        <section id="rio" class="tab-content">
+            <h2>Objetivo: Rio de Janeiro</h2>
+            <p class="subtitle">Tempo restante para concluir o aprendizado da linguagem:</p>
+            <div class="countdown" id="timer-rio">
+                <div><span class="days">00</span>Dias</div>
+                <div><span class="hours">00</span>Horas</div>
+                <div><span class="minutes">00</span>Minutos</div>
+                <div><span class="seconds">00</span>Segundos</div>
+            </div>
+        </section>
+
+        <section id="piaui" class="tab-content">
+            <h2>Objetivo: Piauí</h2>
+            <p class="subtitle">Tempo restante para concluir o aprendizado da linguagem:</p>
+            <div class="countdown" id="timer-piaui">
+                <div><span class="days">00</span>Dias</div>
+                <div><span class="hours">00</span>Horas</div>
+                <div><span class="minutes">00</span>Minutos</div>
+                <div><span class="seconds">00</span>Segundos</div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
